@@ -12,3 +12,15 @@
 .foods{
     font-size: 20px;
 }
+
+.main{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    background-color: blanchedalmond;
+}
