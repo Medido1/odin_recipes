@@ -2,7 +2,6 @@
 .foods{
     text-align: center;
     color: cadetblue;
-    background-color: blanchedalmond;
 }
 
 .h1{
@@ -23,4 +22,16 @@
 
 *{
     background-color: blanchedalmond;
+}
+
+.text{
+    font-size: 24px;
+}
+
+.home{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
