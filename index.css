@@ -1,0 +1,14 @@
+.h1,
+.foods{
+    text-align: center;
+    color: cadetblue;
+    background-color: blanchedalmond;
+}
+
+.h1{
+    font-size: 42px;
+}
+
+.foods{
+    font-size: 20px;
+}
