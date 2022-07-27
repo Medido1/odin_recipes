@@ -2,6 +2,7 @@
 .foods{
     text-align: center;
     color: cadetblue;
+    margin-bottom: 50px;
 }
 
 .h1{
@@ -36,3 +37,8 @@
     margin-right: auto;
 }
 
+.footer{
+    text-align: center;
+    border: 1px solid black;
+    border-style:dotted;
+}
