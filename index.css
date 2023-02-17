@@ -1,3 +1,7 @@
+*{
+    background-color: floralwhite;
+}
+
 .h1,
 .foods{
     text-align: center;
@@ -21,14 +25,27 @@
     margin-right: auto;
 }
 
-.main.image{
-    width: 1000px;
+.image, .main{
+    width: 90vw;
 }
 
-
-*{
-    background-color: floralwhite;
+.recipe {
+    width: 10vw;
+    height: 20vh;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
 }
+
+.recipe:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px 0 black;
+}
+
+.recipe:active{
+    transform: translateY(5px);
+}
+
 
 .text{
     font-size: 24px;
@@ -46,4 +63,9 @@
     text-align: center;
     border: 1px solid black;
     border-style:dotted;
+}
+
+.foods{
+    display: flex;
+    justify-content: center;
 }
