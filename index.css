@@ -26,7 +26,8 @@
 }
 
 .image, .main{
-    width: 90vw;
+    width: 80vw;
+    height: 80vh;
 }
 
 .recipe {
@@ -63,6 +64,9 @@
     text-align: center;
     border: 1px solid black;
     border-style:dotted;
+    background-color: aliceblue;
+    padding: 5px;
+    border: 2px double black;
 }
 
 .foods{
